@@ -1,0 +1,10 @@
+services:
+  app:
+    build: .
+    image: yeker-aishe-berra-devops
+    container_name: yeker-aishe-berra-container
+    environment:
+      STUDENT_NAME: Aishe-berra
+      STUDENT_SURNAME: Yeker
+      STUDENT_GROUP: IT2-2309
+      STUDENT_ID: "37162"
